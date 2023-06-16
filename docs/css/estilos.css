@@ -163,10 +163,19 @@ footer
 .clock_layout
 {
 	background-image: url('http://localhost/KARLA_XV/img/Corazon_verde.jpg');
-            height: 200px;margin-bottom: 8%;/* width: 10px; */max-width: 90%;box-shadow: -3px 10px 16px 10px rgba(0,0,0,0.92);
-			-webkit-box-shadow: -3px 10px 16px 10px rgba(0,0,0,0.92);-moz-box-shadow: -3px 10px 16px 10px rgba(0,0,0,0.92);
-            border-radius: 27px 27px 27px 27px;-webkit-border-radius: 27px 27px 27px 27px;-moz-border-radius: 27px 27px 27px 27px;
-            background-size: cover;opacity: 58%;padding-left: 8%;
+	max-height: 31%;
+	margin-bottom: 8%;
+	/* width: 10px; */
+	max-width: 90%;
+	box-shadow: -3px 10px 16px 10px rgba(0,0,0,0.92);
+	-webkit-box-shadow: -3px 10px 16px 10px rgba(0,0,0,0.92);
+	-moz-box-shadow: -3px 10px 16px 10px rgba(0,0,0,0.92);
+	border-radius: 27px 27px 27px 27px;
+	-webkit-border-radius: 27px 27px 27px 27px;
+	-moz-border-radius: 27px 27px 27px 27px;
+	background-size: cover;
+	opacity: 58%;
+	padding-left: 8%;
 }
 
 .card_info
@@ -195,10 +204,8 @@ footer
 @media (min-width: 250px) and (max-width: 580px) {
 	.card_info  .btn
 {
-	
-margin-top: -6.25vh;
-	
-margin-bottom: 20vh;
+	margin-top: 0.75vh;
+	margin-bottom: 20vh;
 }
 
 .card_info >img {
@@ -251,14 +258,16 @@ margin-bottom: 20vh;
 #cuenta {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 100px;
+	margin-bottom: 25px;
+	height: auto;
 }
 
 .simply-section {
 	background: #000000de;
-	width: 15%;
+	width: 20%;
 	/* height: 180px; */
-	margin: 0px 3%;
+	margin-left: 48%;
+	margin: 0px 2%;
 	border-radius: 5px;
 	display: inline-flex;
 	align-items: center;
@@ -268,8 +277,8 @@ margin-bottom: 20vh;
 .simply-amount {
 	display: block;
 	text-align: center;
-	font-size: 3rem;
-	font-weight: 700;
+	font-size: 6vw;
+	font-weight: 400;
 	color: #eaaa47;
 	font-family: 'MonteCarlo';
 }
