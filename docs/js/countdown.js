@@ -28,3 +28,41 @@ simplyCountdown('#cuenta', {
 	zeroPad: false,
 	countUp: false
 });
+
+function play() {
+	// var audio = new Audio('music/Como_el_ciervo.mp3');
+	var au=document.getElementById("mus");
+	var btn=document.getElementById("rep_mus");
+
+	if(au.paused)
+	{
+		au.play();
+		btn.innerHTML = '<img src="img/play.png" height ="40" width="40"/>'
+
+	}
+	else
+	{
+		var playPromise = au.play();
+ 
+  if (playPromise !== undefined) {
+    playPromise.then(_ => {
+      // Automatic playback started!
+      // Show playing UI.
+      // We can now safely pause video...
+	  btn.innerHTML = '<img src="img/pausa.png" height ="40" width="40"/>'
+      au.pause();
+    })
+    .catch(error => {
+		console.log(error);
+      // Auto-play was prevented
+      // Show paused UI.
+    });
+  }
+
+	}
+	
+}
+
+
+	
+  
