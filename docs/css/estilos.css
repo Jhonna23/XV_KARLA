@@ -283,10 +283,10 @@ footer
 	font-family: 'MonteCarlo';
 }
 
+
 .simply-word {
-	font-weight: 300;
-	font-size: 3vw;
-	text-align: center;
+    font-weight: 100;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
 }
-
-
