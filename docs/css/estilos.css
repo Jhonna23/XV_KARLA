@@ -1,0 +1,283 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #EFEFEF;
+	color: #363639;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* ? ----- PORTADA ----- */
+
+
+.enc_section
+{
+	font-family: 'MonteCarlo', cursive;
+	color:#edd679 !important;
+	font-style: italic;
+	font-weight: 600;
+	margin-top: 10%;
+	font-size: 8vh;
+}
+
+.tag_name
+{
+	font-family: 'MonteCarlo', cursive;  color:#c38820 !important;
+    font-style: italic;
+    font-weight: 600;
+	
+}
+
+
+.tag_text
+
+{
+	font-family: "Belleza", belleza;
+	font-size: 4vh;
+}
+
+
+.tag_text_s
+
+{
+	font-family: "Belleza", belleza;
+	font-size: 3vh;
+}
+
+
+footer
+{
+   background-color: #659365;
+   text-align: center;
+   font-size: 2vh;
+   
+}
+
+
+.span
+{
+	visibility: visible;
+	width: 60%;
+	height: 1px;
+	border: 1px solid transparent;
+	border-image: linear-gradient(to right, #C48F40 0%, #F9B64A 26.1659%, #FBCA7A 37.2632%, #F9B64A 47.7546%, #C48F40 67.3908%, #F9B64A 92.3143%, #FBCA7A 100%) 1;
+	background-color: #C48F40;
+	margin: 15px auto;
+	display: block;
+
+}
+
+.tag_welcome
+{
+	background: #1d1d1dc2;
+    height: auto;
+    max-width: 80%;
+    border-radius: 50px 65px 114px 82px / 25px 23px 27px 32px;
+    box-shadow: -1px 9px 14px 8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 9px 14px 8px rgba(0,0,0,0.75);
+}
+
+.tag_invitation_phrase
+{
+	background-color: #f0f8ff;
+    background-image: url('http://localhost/KARLA_XV/img/KarlaXV.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0 8%;
+    background-position: center;
+}
+
+.tag_invitation_phrase > p:nth-child(1) {
+
+	font-size: 38px;
+    margin-top: 190px;
+    text-align: center; 
+    font-family: 'MonteCarlo', cursive;
+    color: #c38820 !important;
+    font-style: italic;    
+    font-weight: 100;
+}
+
+
+.tag_invitation_phrase > p:nth-child(2) {
+
+	font-size: 38px;
+	margin-bottom: 21%;
+    text-align: center; 
+    font-family: 'MonteCarlo', cursive;
+    color: #c38820 !important;
+    font-style: italic;    
+    font-weight: 100;
+}
+
+.gift_table
+{
+	border: 27px solid rgb(157 2 120 / 12%);
+}
+ 
+.text_phrase
+{
+	font-size: 38px;
+    text-align: center;
+    font-family: 'MonteCarlo', cursive;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.icon_message
+{
+	-moz-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -moz-box-shadow: -1px 10px 8px -1px rgba(0,0,0,0.75);
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #eeeeee;
+    box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, 0.15);
+    margin: 4% 4% 4% 4%;
+    padding: 2em 2em 2em 2em;
+}
+
+.icon_message >h4
+{
+	font-family: 'MonteCarlo', cursive;
+            color: #c38820 !important;
+            font-style: italic;
+            margin-bottom: 0px;
+            font-weight: 600;
+}
+
+
+.phrase_xv
+{
+	font-family: 'MonteCarlo', cursive;
+	color: #edd670 !important;
+	font-size: 36px;
+	margin-top: 31px;
+}
+
+.clock_layout
+{
+	background-image: url('http://localhost/KARLA_XV/img/Corazon_verde.jpg');
+            height: 200px;margin-bottom: 8%;/* width: 10px; */max-width: 90%;box-shadow: -3px 10px 16px 10px rgba(0,0,0,0.92);
+			-webkit-box-shadow: -3px 10px 16px 10px rgba(0,0,0,0.92);-moz-box-shadow: -3px 10px 16px 10px rgba(0,0,0,0.92);
+            border-radius: 27px 27px 27px 27px;-webkit-border-radius: 27px 27px 27px 27px;-moz-border-radius: 27px 27px 27px 27px;
+            background-size: cover;opacity: 58%;padding-left: 8%;
+}
+
+.card_info
+
+{
+	background-color: #f9f9f9;
+	border: 1px solid rgba(43,42,42,0.09);
+	box-shadow: 1px 6px 11px 2px rgba(0,0,0,0.34);
+	padding-bottom: 5%;
+}
+
+.card_info >img
+{
+	height: 24%;
+    width: 22%;
+    margin-top: 5%;
+}
+
+.card_info  p:nth-of-type(-n+2)
+{
+	font-size: 27px;
+    font-family: 'MonteCarlo';
+    margin-bottom: 1.75em;
+}
+
+@media (min-width: 250px) and (max-width: 580px) {
+	.card_info  .btn
+{
+	
+margin-top: -6.25vh;
+	
+margin-bottom: 20vh;
+}
+
+.card_info >img {
+    height: 19%;    
+    width: 45%;
+    
+}
+  }
+
+.card_info p:nth-last-of-type(1)
+{
+	font-size: 27px;
+    font-family: 'MonteCarlo';
+    
+}
+
+.card_info >h4
+{
+	font-family: 'MonteCarlo', cursive;
+	color: #c38820 !important;
+	font-style: italic;
+	font-size: 40px;
+	font-weight: 600;
+
+}
+
+
+.img_dress_code
+{
+	height: 65%;
+	width: 22%;
+	margin-top: 15px;
+}
+
+
+/* ? ----- MAIN ----- */
+/* main {
+	max-width: 1000px;
+	margin: auto;
+	width: 90%;
+	padding: 60px 0;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: left;
+} */
+
+
+
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.simply-section {
+	background: #000000de;
+	width: 15%;
+	/* height: 180px; */
+	margin: 0px 3%;
+	border-radius: 5px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 700;
+	color: #eaaa47;
+	font-family: 'MonteCarlo';
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 3vw;
+	text-align: center;
+}
+
+
