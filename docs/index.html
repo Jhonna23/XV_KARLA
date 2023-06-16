@@ -31,13 +31,37 @@
 background-repeat: no-repeat;background-size: cover;
 ">
     <div class="container-fluid">
-        <audio id ="mus" controls loop style="position: absolute;
-        visibility: collapse;" >
-            <source src="music/Como_el_ciervo.mp3" type="audio/mp3">
-            
-                Tu navegador no soporta audio HTML5.
-        </audio>
+      
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center" style="font-size: 27px;
+      font-family: 'MonteCarlo';">
+        ¡Mis XV!.. <br>
+        Karla E. Vázquez López
+      </div>
+      <div class="modal-footer">
+        <button id='boton-iniciar' type="button" class="btn btn-primary mx-auto d-block" data-dismiss="modal">Iniciar</button>        
+      </div>
+    </div>
+  </div>
+</div>
         <div class="row">
+            <audio id="mus" controls loop style="position: absolute;
+        visibility: collapse;">
+            <source src="music/Como_el_ciervo.mp3" type="audio/mp3">
+
+            Tu navegador no soporta audio HTML5.
+        </audio>
 
             <div class="col-sm-12">
                 <!-- <h1 class="text-center">Imagen</h1> -->
@@ -72,13 +96,15 @@ background-repeat: no-repeat;background-size: cover;
         </div>
         <div class="row mb-4">
             <div class="col-sm-6">
-                <h3 class="text-center tag_name">Lemni Marili López López</h3>
+
+                <h3 class="text-center tag_name">José Javier Vázquez Solis</h3>
+
                 <span class="border-black span"></span>
 
 
             </div>
             <div class="col-sm-6">
-                <h3 class="text-center tag_name">José Javier Vázquez Solis</h3>
+                <h3 class="text-center tag_name">Lemni Marili López López</h3>
                 <span class="border-black span"></span>
 
             </div>
@@ -184,8 +210,7 @@ background-repeat: no-repeat;background-size: cover;
 
         </div>
         <div class="col-md-6 card_info text-center">
-            <img src="img/copas.png" alt="salon" class="img-fluid mx-auto d-block"
-                width="50%">
+            <img src="img/copas.png" alt="salon" class="img-fluid mx-auto d-block" width="50%">
             <h4 class="text-center">Recepción</h4>
             <span class="span"></span>
 
@@ -194,7 +219,6 @@ background-repeat: no-repeat;background-size: cover;
             <p class="text-center"> 1, Calle del Nte. Pte. #71, Candelaria, 30060 Comitán de Domínguez, Chis.</p><br>
             <!-- <a href="https://www.google.com/maps/place/Iglesia+Nacional+Presbiteriana+de+M%C3%A9xico+A.R.+%22Cristo+Viene%22,+Calle+Coronel+Grajales+%2315-A+Col,+Miguel+Alem%C3%A1n,+30090+Comit%C3%A1n+de+Dom%C3%ADnguez,+Chis./@16.2295173,-92.1328391,13z/data=!4m6!3m5!1s0x858d3f439d093e99:0x3291d07dc75edf52!8m2!3d16.2295173!4d-92.1328391!16s%2Fg%2F11ffm4t7rl" class="btn btn-outline-success mx-auto d-block">Ver Mapa</a> -->
             <div class="row">
-
                 <div class="col-12">
                     <a href="https://www.google.com/maps/place/SALON+DE+FIESTAS+MAGIC/@16.2497468,-92.1425446,13z/data=!4m6!3m5!1s0x858d39311248184d:0x5fe1731f36aa056d!8m2!3d16.2497468!4d-92.1425446!16s%2Fg%2F11mhjwhsmp?entry=ttu"
                         target="_blank" class="btn btn-success">Ver Mapa</a>

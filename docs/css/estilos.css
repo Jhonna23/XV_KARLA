@@ -1,19 +1,11 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-body {
-	background: #EFEFEF;
-	color: #363639;
-    font-family: 'Work Sans', sans-serif;
-}
 
 
 
 /* ? ----- PORTADA ----- */
-
+html, body {
+	max-width: 100% !important;
+	overflow-x: hidden !important;
+	}
 
 .enc_section
 {

@@ -61,8 +61,59 @@ function play() {
 
 	}
 	
+	// 
+
+// 	var playPromise = audio.play();
+ 
+//   if (playPromise !== undefined) {
+//     playPromise.then(_ => {
+//       // Automatic playback started!
+//       // Show playing UI.
+//       // We can now safely pause video...
+//       audio.pause();
+//     })
+//     .catch(error => {
+// 		console.log(error);
+//       // Auto-play was prevented
+//       // Show paused UI.
+//     });
+//   }
 }
 
+	
+	// // audio.pause();
+	
+	// // console.log(audio);
+    // if(audio.paused)
+	// {
+	// 	audio.play();
+		
+
+	// }
+	// else
+	// {
+	// 	audio.pause()
+
+	// }
+	
 
 	
   
+
+const myModal = new bootstrap.Modal(document.getElementById('exampleModal')),
+btnCerrrar = document.getElementById('boton-iniciar');
+
+window.addEventListener('load', ()=>{
+
+  let visita = sessionStorage.getItem('visita');
+
+  if(visita == null) myModal.show();
+
+});
+
+btnCerrrar.addEventListener('click', ()=>{
+  myModal.hide();
+  play()
+  sessionStorage.setItem('visita', 1);
+
+});
